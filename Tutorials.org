@@ -1,0 +1,21 @@
+# Basics
+# https://docs.pytorch.org/tutorials/recipes/recipes/defining_a_neural_network.html
+
+# https://docs.pytorch.org/tutorials/beginner/nn_tutorial.html
+
+https://docs.pytorch.org/tutorials/recipes/recipes/zeroing_out_gradients.html
+
+https://docs.pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html
+
+https://docs.pytorch.org/tutorials/recipes/recipes/warmstarting_model_using_parameters_from_a_different_model.html
+
+
+#autograd
+
+
+# Visualization
+https://docs.pytorch.org/tutorials/intermediate/visualizing_gradients_tutorial.html
+
+https://docs.pytorch.org/tutorials/intermediate/tensorboard_tutorial.html
+
+https://docs.pytorch.org/tutorials/intermediate/tensorboard_profiler_tutorial.html
