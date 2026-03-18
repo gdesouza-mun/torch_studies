@@ -3,19 +3,74 @@
 
 # https://docs.pytorch.org/tutorials/beginner/nn_tutorial.html
 
-https://docs.pytorch.org/tutorials/recipes/recipes/zeroing_out_gradients.html
+# https://docs.pytorch.org/tutorials/recipes/recipes/zeroing_out_gradients.html
 
-https://docs.pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html
+# https://docs.pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html
+-- Example on how to fine tune only the last layer
 
-https://docs.pytorch.org/tutorials/recipes/recipes/warmstarting_model_using_parameters_from_a_different_model.html
-
-
-#autograd
-
+# https://docs.pytorch.org/tutorials/recipes/recipes/warmstarting_model_using_parameters_from_a_different_model.html
+-- How to load parameters from an old model into a new one
 
 # Visualization
 https://docs.pytorch.org/tutorials/intermediate/visualizing_gradients_tutorial.html
+--How to visualize gradients
 
 https://docs.pytorch.org/tutorials/intermediate/tensorboard_tutorial.html
 
 https://docs.pytorch.org/tutorials/intermediate/tensorboard_profiler_tutorial.html
+-- Advanced Visualization tools
+
+# Segmentation Tutorials
+
+https://www.youtube.com/watch?v=IHq1t7NxS8k
+
+https://docs.pytorch.org/vision/0.22/auto_examples/transforms/plot_transforms_e2e.html
+
+
+# Additional Information - Read This
+https://deepnote.com/blog/ultimate-guide-to-torchvision-library-in-python
+
+** Notes
+
+-- Can autoload some popular datasets (maybem for pre train ?)
+-- Included ability to preload specific vision architeture
+
+*** Core Features of Torch vision
+
+-- Coco dataset for object detection 
+-- Bouding boxes and categories seem to be usual in object detection/segmention
+-- Gotta consider our data imbalance
+
+-- Understand normalization and image size before trying to use a pre trained
+model
+
+-- Use data augmentation like random crop maybe?
+-- Grayscale images
+-- Random Erasing
+
+** Torchvision Transforms and data augmentation
+
+** Torchvision pre-trained models and model architeture
+
+-- Mask R-CNN might be a good first model to eval
+-- Example 2 is a good to reproduce
+
+** Torchvision utility functions and visualization
+-- Visu masks and boxes
+
+# Documentation
+https://docs.pytorch.org/vision/main/generated/torchvision.datasets.CocoDetection.html
+
+
+* Long term idea
+
+Use to neural networks
+
+Is there rock? - Train NN to indentify if there is rock in
+subdivisions of the image
+We want high specificity
+
+Use another to segment the better represented classes
+
+How would I creat a dataset for this?
+
